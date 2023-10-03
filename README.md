@@ -1,17 +1,21 @@
 # BUT1_SAE_INSTALL_LINUX
 # installation Systeme : 
 
+# Lien github : https://github.com/Kyxtaka/BUT1_SAE_INSTALL_LINUX
+
 ## Creer la machine Virtuelle
 Tous d'abord il faut télécharger et installer VirtualBox [ici](https://www.virtualbox.org/wiki/Downloads). 
 Une fois l'installation éffective veuillez suivre toute les étapes : 
 - Creer une nouvelle machine
-- remplir les champs : 
-- configurer les resources a aloués 
+- remplir les champs nécéssaires
+- configurer les resources a aloués dans l'onglet configuration de la machine
 - Séléctioner un iso de systeme d'exploitation ([ici c'est ubuntu 24.04](https://ubuntu.com/download/desktop))
 
 ## Installation du system
 - suivre toutes les étapes indiqués
 - Configuration du systeme linux via le fichier config 
+    - copier le ficher config dans Documents
+    - executer autorun.sh
 
 ## Installation des packages Nodejs, Javac, Docker
 - Dans un premier temps copier le dossier config a la racine du repertoir Document (~/Documents/) dans votre home 
